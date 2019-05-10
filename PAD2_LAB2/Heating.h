@@ -10,6 +10,6 @@ public:
 	virtual Heating& operator++() override;
 	virtual Heating& operator--() override;
 private:
-	float temperature = 0;
+	float temperature = 20;
 
 };

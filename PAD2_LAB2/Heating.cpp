@@ -8,7 +8,7 @@ Heating::Heating(std::string input) : GeneralDevice(input)
 std::string Heating::showDevice() const
 {
 	std::stringstream out;
-	out << "Temperature: " << temperature << " °C" << std::endl;
+	out << "Temperature: " << temperature << " C" << std::endl;
 	return out.str();
 }
 

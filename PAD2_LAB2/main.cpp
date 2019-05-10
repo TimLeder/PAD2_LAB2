@@ -82,7 +82,7 @@ int main() {
 		case '?':
 			for (int i = 0; i < 5; i++)
 			{
-				cout << devices[i]->toString();
+				cout << devices[i]->toString() << "- " << devices[i]->showDevice() << endl;
 			}
 		default:
 			cout << "Error\n" << endl;
