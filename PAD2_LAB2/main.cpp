@@ -66,7 +66,7 @@ int main() {
 				cout << "Select a device before changing it's value!" << endl;
 			else
 			{
-				actualDevice->operator++();
+				++(*actualDevice);
 				cout << actualDevice->showDevice();
 			}
 			break;
@@ -75,7 +75,7 @@ int main() {
 				cout << "Select a device before changing it's value!" << endl;
 			else
 			{
-				actualDevice->operator--();
+				--(*actualDevice);
 				cout << actualDevice->showDevice();
 			}
 			break;
